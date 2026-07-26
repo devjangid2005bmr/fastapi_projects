@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "name":"laptop",
+        "price":999.99,
+        "catagory":"electronics",
+        "stock":15
+    },
+
+    {
+        "id":2,
+        "name":"phone",
+        "price":5894.99,
+        "catagory":"electronics",
+        "stock":50
+    },
+
+    {
+        "id":3,
+        "name":"tv",
+        "price":45000,
+        "catagory":"electronics",
+        "stock":5
+    },
+
+    {
+        "id":1,
+        "name":"fridge",
+        "price":15000,
+        "catagory":"electronics",
+        "stock":2
+    }
+
+    
+]

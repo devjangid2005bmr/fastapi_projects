@@ -1,13 +1,18 @@
 from fastapi import FastAPI
+from routes.productRoute import product_routes
+
 
 app = FastAPI(
-    title = "hello world",
-    description = "this is the world"
+    
+    title = "api routes",
+    description="hello how are you"
 )
 
-
-@app.get("/")
+@app.get("/home")
 def home():
-    return {
-        "message":"hello how are you"
+    return{
+        "message":"heyyy baby"
     }
+    
+    
+app.include_router(product_routes , prefix="/products")
