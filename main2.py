@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from routes.productRoute import product_routes
+from routes.createpost import create_post
 
 
 app = FastAPI(
@@ -8,7 +9,7 @@ app = FastAPI(
     description="hello how are you"
 )
 
-@app.get("/home")
+@app.get("/")
 def home():
     return{
         "message":"heyyy baby"
@@ -16,3 +17,4 @@ def home():
     
     
 app.include_router(product_routes , prefix="/products")
+app.include_router(create_post , prefix="/createpost")
