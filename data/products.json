@@ -29,6 +29,14 @@
         "price":15000,
         "catagory":"electronics",
         "stock":2
+    },
+
+        {
+        "id":4,
+        "name":"tv",
+        "price":5666,
+        "catagory":"electronics",
+        "stock":8
     }
 
     
