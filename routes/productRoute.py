@@ -6,8 +6,8 @@ product_routes = APIRouter()
 
 @product_routes.get("/productid/{id}")
 def get_product(
-    id: int = Path(..., gt=0, description="Product ID")
-):
+    id: int = Path(..., gt=0, description="Product ID")):
+    
     products = get_all_products()
 
     for product in products:
