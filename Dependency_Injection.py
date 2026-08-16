@@ -34,7 +34,4 @@ def products(
         if product["id"]==id:
             return product
         
-    raise ProductNotFound(id)
-    
-        
-    
+    raise ProductNotFound(id) 
